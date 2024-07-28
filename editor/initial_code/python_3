@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def calculo_eficiencia_combustivel(km, litros):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(calculo_eficiencia_combustivel(150.0, 10.0))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert calculo_eficiencia_combustivel(150.0, 10.0) == 15.0
+assert calculo_eficiencia_combustivel(300.0, 20.0) == 15.0
+assert calculo_eficiencia_combustivel(120.0, 5.0) == 24.0
+assert calculo_eficiencia_combustivel(200.0, 40.0) == 5.0
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
